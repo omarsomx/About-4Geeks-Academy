@@ -1,0 +1,42 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+
+basic_info:
+  # First Name
+  first_name: Omar
+  last_name: Espinoza
+
+  # Contact Information
+  email: omar.espinoza.gomez@gmail.com #optional
+
+education:
+    - degree: Lic. Ciencias de la Informática
+      university: Insituto Politecnico Nacional
+
+experiences:
+    - role: Mainframe Developer
+      time: 2020 - Present
+      company: DXC, Madrid  
+
+projects:
+    intro: >
+      My Projects
+    assignments:
+      - title: omarsomx.com
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://www.omarsomx.com/"
+        tagline: "An art portfolio"
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 90%
+
+      - name: Javascript & jQuery
+        level: 70%
+
+      - name: Cobol
+        level: 90%
